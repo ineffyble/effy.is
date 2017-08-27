@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Erin",
+        "current": true,
+        "anniversary": "2016-06-25",
+        "heart": "❤️"
+    },
+    {
+        "name": "Cass",
+        "current": false,
+        "anniversary": "2016-06-27",
+        "heart": "💛"
+    },
+    {
+        "name": "Evelyn",
+        "current": true,
+        "anniversary": "2016-07-17",
+        "heart": "💜"
+    },
+    {
+        "name": "Bianca",
+        "current": true,
+        "anniversary": "2016-12-20",
+        "heart": "💛"
+    },
+    {
+        "name": "Jen/Ren",
+        "current": true,
+        "anniversary": "2016-12-29",
+        "heart": "💚"
+    },
+    {
+        "name": "Lulu",
+        "current": true,
+        "anniversary": "2016-12-31",
+        "heart": "💙"
+    },
+    {
+        "name": "Evan",
+        "current": true,
+        "anniversary": "2017-08-26",
+        "heart": "💖"
+    }
+]

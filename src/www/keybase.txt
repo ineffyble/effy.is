@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/effy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://effy.is
+  * I am effy (https://keybase.io/effy) on keybase.
+  * I have a public key with fingerprint 896D EE05 7719 98AC F7F9  09BD 7C3C 7919 D90C 8203
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018d626a825d78ff61f3e994d3d5cfb3fddb3bdea46134ff1fe1387d11017c564d0a",
+            "fingerprint": "896dee05771998acf7f909bd7c3c7919d90c8203",
+            "host": "keybase.io",
+            "key_id": "7c3c7919d90c8203",
+            "kid": "01018d626a825d78ff61f3e994d3d5cfb3fddb3bdea46134ff1fe1387d11017c564d0a",
+            "uid": "a639f2a1b4f4780829b2e84ccc4b1c19",
+            "username": "effy"
+        },
+        "service": {
+            "hostname": "effy.is",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1452138329,
+    "expire_in": 157680000,
+    "prev": "f9a9882c768f25b434910529f8b9352450ffb2be75bcf7b336f98c04ac92be6c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIfAnicrVJbSBVBGD6m3dTSSiqLirboIaR2Zq9zHqQeT5aFpWhqp53ZGc+WnXPa
+3aPZsYwkA7GUAosikjK60E1IinpQo+gGaYiUFAldiS5IF7LoNisFPfTYvAzzzfd9
+8/3//NfGJfqSE1ZmrVnRsbzuXcKdrt0xX8GugaK4gCNmleCPC+vp8EbLTeq4wfWW
+KfgFEYhAN1WoGjpUTE1nTAVMogjJpmQqhGGJmSaWsEkNWQWSzBhgFEi6ZgKu1Iii
+yqZoCFkCs8Jl1I7aVtjltjpSTUpFRdMAQrpBmMaQiLCpEYloCCATiUSHosSFoYjj
+KXg4bDh0gRXhGD8Eh+P9g/+fc8eG7QxVQgwaAMtM1nRRhwhDqsuEEBkDApBHdKgd
+NjZQzqaMVQlbsgSOVFiEek31qvjrdoHlcEnUjrgREinnYMh1o47fE7lVUY9VSXHw
+tz6IrbDJ28cVFdR2rEhY8APOJK7lGQJZgTy5BFGWQDdFLZsGLY+haKou8uW9Qyu4
+JUMG0nVIOM6ggmVJRkBUIGI6RpICZUVkDENMNQXzD8GSpDKkE1E2COKoSgSvoo3h
+iOCXeUyjjFs6VlnYcGM2FbZc7SxJ8iUk+0aNHOGNlS95bPqfYat2Rv8MFLWttDpg
+3zLjziL79qP859X1jztrX42dP69n9dlB/9euiSQgrD3WeH6g/3L88J78rwcybnS3
+vck07jePcbPnNuUu1O7W3dRqS46618+AspmTsi82h37sXXwrBY5vPDfhgb3zWm3r
+1snFae05p+pPtgbEaZXF01ukN3Bq/+DQM3FKdMq2wGs49GVG3ubZ95e+n3M8pWVV
+zz4oNn9St7/8kJna+jweWFI6Ah17ltdU01FTqJ84tC73+8eCYtD/cD+IJ6Ls9KTY
+0+Nq2of2Iw2xmrk5obOJ956cLiz5nJ/a3Vf67cq80Hi1/fXbonjD0IUrA/kZvTuS
+q969uNT7YLB01sDB7l88mEAh
+=fzRD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/effy
+
+==================================================================
+

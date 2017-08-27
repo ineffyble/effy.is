@@ -1,0 +1,38 @@
+body {
+  font-family: "Assistant", "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+#name {
+  margin-bottom: 0.5rem;
+}
+
+#identity {
+  color: #fc5aa3;
+}
+
+.things {
+  list-style: none;
+}
+
+a {
+  color: #fc5aa3;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #fc5aa3;
+}
+
+#cuties th, #cuties td {
+  padding: 10px;
+}
+
+#cuties {
+  padding-bottom: 20px;
+}

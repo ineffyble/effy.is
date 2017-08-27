@@ -1,0 +1,69 @@
+{
+    "code": {
+        "contribute": [
+            {
+                "name": "Mastodon",
+                "link": "https://github.com/tootsuite/mastodon",
+                "description": "Open source, federated social network/microblogging platform."
+            },
+            {
+                "name": "CiviCRM",
+                "link": "https://civicrm.org/",
+                "description": "Open source CRM for non-profits and charities."
+            }
+        ],
+        "made": [
+            {
+                "name": "NationTweaker",
+                "link": "https://ineffyble.github.io/nationtweaker",
+                "description": "Browser extension to make <a href='http://nationbuilder.com' target='_blank'>NationBuilder</a> better."
+            },
+            {
+                "name": "Tooter",
+                "link": "https://github.com/ineffyble/tooter",
+                "description": "Browser extension to bring Mastodon 'toot' buttons to the web."
+            },
+            {
+                "name": "stevenuniverse, the gem",
+                "link": "https://rubygems.org/gems/stevenuniverse",
+                "description": "Adds <a href='http://steven-universe.wikia.com/wiki/Steven_Universe_(character)' target='_blank'>Steven Universe</a> to your rubygems list."
+            },
+            {
+                "name": "Causality",
+                "link": "https://wordpress.org/plugins/causality/",
+                "description": "WordPress plugin for Twibbon-style cause promotion."
+            }
+        ]
+    },
+    "effy": {
+        "online": [
+            {
+                "name": "Twitter",
+                "link": "https://twitter.com/ineffyble",
+                "description": "Where I tweet about politics, techie things, and memes."
+            },
+            {
+                "name": "Email",
+                "link": "mailto:hi@effy.is",
+                "description": "Where people try to talk to me."
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/ineffyble",
+                "description": "Where I code."
+            }
+        ],
+        "care": [
+            {
+                "name": "The Australian Greens",
+                "link": "https://github.com/ineffyble",
+                "description": "Where I work and volunteer."
+            },
+            {
+                "name": "Melbourne Gaymers",
+                "link": "https://facebook.com/MelbourneGaymers",
+                "description": "A cool queer gaming community I help run."
+            }
+        ]
+    }
+}
