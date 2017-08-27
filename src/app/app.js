@@ -5,17 +5,18 @@ import EffyLayout from './components/effylayout.js';
 import ShowEffyThings from './components/showeffythings.js';
 import ShowHerPartners from './components/showherpartners.js';
 import CheckOutHerHormoneGraph from './components/checkoutherhormonegraph.js';
-import {Router, Route, browserHistory, IndexRoute, IndexRedirect } from 'react-router';
+import SheIsIneffyble from './components/sheisineffyble.js';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 render(
-  <Router history={browserHistory}>
-    <Route path="/"><IndexRedirect to="/ineffyble" /></Route>
-    <Route component={EffyLayout}>
-      <Effy is="ineffyble" so={ShowEffyThings} />
-      <Effy is="in love" so={ShowHerPartners} />
-      <Effy is="on hrt" so={CheckOutHerHormoneGraph} />
-      <Effy is="tweeting" soRedirectTo="herTwitter" />
-      <Effy is="tumbling" soRedirectTo="herTumblr" />
-    </Route>
-  </Router>,
+  <BrowserRouter>
+    <EffyLayout>
+        <Effy is="effy" so={SheIsIneffyble} />
+        <Effy is="ineffyble" so={ShowEffyThings} />
+        <Effy is="in love" so={ShowHerPartners} />
+        <Effy is="on hrt" so={CheckOutHerHormoneGraph} />
+        <Effy is="tweeting" soRedirectTo="herTwitter" />
+        <Effy is="tumbling" soRedirectTo="herTumblr" />
+    </EffyLayout>
+  </BrowserRouter>,
    document.getElementById('app'));
