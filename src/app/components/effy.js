@@ -1,20 +1,31 @@
-import React from 'react';
-import { IndexRoute, Route, Redirect} from 'react-router';
-import { createRoutesFromReactChildren } from 'react-router/lib//RouteUtils';
+import React, {Component} from 'react';
+import {Route, Redirect, Switch} from 'react-router-dom'
 import EffyRedirect from './effyredirect.js';
 
-const Effy = () => <div>&lt;Effy&gt; elements are for configuration only and should not be rendered</div>;
-
-Effy.createRouteFromReactElement = (element) => {
-  var is = element.props.is.replace(' ', '/');
-  var so = element.props.so;
-  if (element.props.soRedirectTo) {
-    so = EffyRedirect;
+var Effy = React.createClass({
+  render: function() {
+    var is = this.props.is.replace(' ', '/');
+    var is = "/" + is;
+    var so = this.props.so;
+    if (this.props.soRedirectTo) {
+      return (
+        <Route path={is} component={EffyRedirect} />
+      )
+    } else {
+      if (this.props.is == 'effy') {
+        return (
+          <div>
+            <Route exact path="/" component={so} />
+            <Route path={is} component={so} />
+          </div>
+        )
+      } else {
+        return (
+          <Route path={is} component={so} />
+        )
+      }
+    }
   }
-  const effyRoute = createRoutesFromReactChildren(
-      <Route path={is} component={so} />
-  )[0];
-  return effyRoute;
-};
+});
 
 export default Effy;
