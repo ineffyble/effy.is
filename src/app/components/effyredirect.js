@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import { withRouter } from 'react-router'
 
-var EffyRedirect = React.createClass({
+var EffyRedirect = createReactClass({
   componentDidMount: function() {
     var redirects = {
       '/tweeting': 'https://twitter.com/ineffyble',

@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import {Route, Redirect, Switch} from 'react-router-dom'
 import EffyRedirect from './effyredirect.js';
 
-var Effy = React.createClass({
+var Effy = createReactClass({
   render: function() {
     var is = this.props.is.replace(' ', '/');
     var is = "/" + is;

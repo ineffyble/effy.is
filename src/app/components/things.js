@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import Thing from './thing.js';
 
-var Things = React.createClass({
+var Things = createReactClass({
   children: function() {
     if (this.props.children) {
       return (<div>{this.props.children}</div>)

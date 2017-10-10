@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import { withRouter } from 'react-router'
 
-var EffyHeader = React.createClass({
+var EffyHeader = createReactClass({
   render: function() {
     return (
         <div className="row" id="title">

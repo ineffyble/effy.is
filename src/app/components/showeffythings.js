@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import Router from 'react-router';
 import EffyHeader from './effyheader.js';
 import Things from './things.js';
 import CutiesOnline from './cutiesonline.js';
 
-var ShowEffyThings = React.createClass({
+var ShowEffyThings = createReactClass({
   things: require('../../www/data/effythings.json'),  
   render: function() {
     return (

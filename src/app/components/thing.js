@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 
-var Thing = React.createClass({
+var Thing = createReactClass({
   render: function() {
     return (
       <li>

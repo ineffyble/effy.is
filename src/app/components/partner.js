@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import { Twemoji } from 'react-emoji-render';
 
-var Partner = React.createClass({
+var Partner = createReactClass({
   daysSince: function(date) {
       var now = new Date();
       var then = new Date(date);

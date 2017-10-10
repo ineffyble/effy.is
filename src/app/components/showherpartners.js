@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import Router from 'react-router';
 import Partner from './partner.js';
 
-var ShowHerPartners = React.createClass({
+var ShowHerPartners = createReactClass({
   partners: require('../../www/data/partners.json'),
   render: function() {
     return (

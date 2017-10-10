@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 
-var HrtCounter = React.createClass({
+var HrtCounter = createReactClass({
   dayCount: function() {
       var now = new Date();
       var startDate = new Date('2015-11-23');

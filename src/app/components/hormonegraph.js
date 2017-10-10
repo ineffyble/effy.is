@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 
-var HormoneGraph = React.createClass({
+var HormoneGraph = createReactClass({
   render: function() {
     var graphUrl = 'https://docs.google.com/spreadsheets/d/18GBjWeH84OuAg-uipmkvBzU_WTJyel9S6Fd4QVh3U_A/pubchart?oid=737800518&format=image';
     return (

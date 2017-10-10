@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import createReactClass from 'create-react-class';
 import EffyHeader from './effyheader.js';
 
-var EffyLayout = React.createClass({
+var EffyLayout = createReactClass({
   render: function() {
     return (
         <div>
