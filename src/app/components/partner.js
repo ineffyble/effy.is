@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import createReactClass from 'create-react-class';
 import { Twemoji } from 'react-emoji-render';
+import Morphext from './morphext.js';
 
 var Partner = createReactClass({
   daysSince: function(date) {
@@ -14,11 +15,19 @@ var Partner = createReactClass({
       return anniversary.getDate() + " " + months[anniversary.getMonth()] + " " + anniversary.getFullYear();
   },
   render: function() {
-    return (
+    if (this.props.name == 'Jen/Ren') {
+      return (
       <div>
-          <h1><Twemoji text={this.props.heart}/> {this.props.name} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
+          <h1><Twemoji text={this.props.heart}/> <Morphext animation="flipInY" speed="3000" phrases={["Jen", "Ren"]} /> - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
       </div>
-    )
+      )
+    } else {
+      return (
+        <div>
+            <h1><Twemoji text={this.props.heart}/> {this.props.name} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
+        </div>
+      )
+    }
   }
 });
 
