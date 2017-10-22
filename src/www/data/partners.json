@@ -19,7 +19,7 @@
     },
     {
         "name": "Bianca",
-        "current": true,
+        "current": false,
         "anniversary": "2016-12-20",
         "heart": "💛"
     },
