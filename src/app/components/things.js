@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import Thing from './thing.js';
 
-var Things = createReactClass({
-  children: function() {
+class Things extends Component {
+  children() {
     if (this.props.children) {
       return (<div>{this.props.children}</div>)
     } else {
       return false;
     }
-  },
-  content: function() {
+  }
+
+  content() {
     var content;
     if (this.props.half) {
       var className = "one-half column";
@@ -46,10 +46,11 @@ var Things = createReactClass({
       }
     }
     return content;
-  },
-  render: function() {
+  }
+
+  render() {
     return this.content()
   }
-});
+}
 
 export default Things;

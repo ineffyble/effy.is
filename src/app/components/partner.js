@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import { Twemoji } from 'react-emoji-render';
 import Morphext from './morphext.js';
 
-var Partner = createReactClass({
-  daysSince: function(date) {
+class Partner extends Component {
+  daysSince(date) {
       var now = new Date();
       var then = new Date(date);
       return Math.floor((Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) - Date.UTC(then.getFullYear(), then.getMonth(), then.getDate()) ) /(1000 * 60 * 60 * 24));
-  },
-  formatAnniversary: function(date) {
+  }
+
+  formatAnniversary(date) {
       var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
       var anniversary = new Date(date);
       return anniversary.getDate() + " " + months[anniversary.getMonth()] + " " + anniversary.getFullYear();
-  },
-  render: function() {
+  }
+
+  render() {
     if (this.props.name == 'Jen/Ren') {
       return (
       <div>
@@ -29,6 +30,6 @@ var Partner = createReactClass({
       )
     }
   }
-});
+}
 
 export default Partner;

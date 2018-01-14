@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import { withRouter } from 'react-router'
 
-var EffyHeader = createReactClass({
-  render: function() {
+class EffyHeader extends Component {
+  render() {
     return (
         <div className="row" id="title">
             <h1 id="name">Effy Elden</h1>
@@ -11,6 +10,6 @@ var EffyHeader = createReactClass({
         </div>
     )
   }
-});
+}
 
 export default withRouter(EffyHeader);

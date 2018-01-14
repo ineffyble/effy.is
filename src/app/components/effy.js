@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
-import {Route, Redirect, Switch} from 'react-router-dom'
+import {Route, Redirect, Switch} from 'react-router-dom';
 import EffyRedirect from './effyredirect.js';
 
-var Effy = createReactClass({
-  render: function() {
+class Effy extends Component {
+  render() {
     var is = this.props.is.replace(' ', '/');
     var is = "/" + is;
     var so = this.props.so;
@@ -27,6 +26,6 @@ var Effy = createReactClass({
       }
     }
   }
-});
+}
 
 export default Effy;

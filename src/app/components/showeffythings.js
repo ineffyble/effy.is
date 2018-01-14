@@ -1,23 +1,22 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import Router from 'react-router';
 import EffyHeader from './effyheader.js';
 import Things from './things.js';
 import CutiesOnline from './cutiesonline.js';
 
-var ShowEffyThings = createReactClass({
-  things: require('../../www/data/effythings.json'),  
-  render: function() {
+class ShowEffyThings extends Component {
+  render() {
+    const things = require('../../www/data/effythings.json');
     return (
       <div>
         <div className="row" id="body">
           <Things title="Code things" half={true}>
-            <Things subtitle="Things I contribute to" things={this.things.code.contribute} />
-            <Things subtitle="Things I made" things={this.things.code.made} />
+            <Things subtitle="Things I contribute to" things={things.code.contribute} />
+            <Things subtitle="Things I made" things={things.code.made} />
           </Things>
           <Things title="Effy things" half={true}>
-            <Things subtitle="Online things" things={this.things.effy.online} />
-            <Things subtitle="Things I care about" things={this.things.effy.care} />
+            <Things subtitle="Online things" things={things.effy.online} />
+            <Things subtitle="Things I care about" things={things.effy.care} />
           </Things>
         </div>
         <Things title="Other cool things">
@@ -26,6 +25,6 @@ var ShowEffyThings = createReactClass({
       </div>
     )
   }
-});
+}
 
 export default ShowEffyThings;

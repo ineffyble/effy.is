@@ -80,7 +80,7 @@ export default Morphext;
 
 /*
  * Usage example
- * 
+ *
  * ## Default component (bare minimum)
  *
  * Mount Morphext component onto #morphext-react-container via React.renderComponent.

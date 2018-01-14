@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 
-var Thing = createReactClass({
-  render: function() {
+class Thing extends Component {
+  render() {
     return (
       <li>
           <a href={this.props.link} target="_blank">{this.props.name}</a><br />
@@ -10,6 +9,6 @@ var Thing = createReactClass({
       </li>
     )
   }
-});
+}
 
 export default Thing;

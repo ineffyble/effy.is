@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import EffyHeader from './effyheader.js';
 
-var EffyLayout = createReactClass({
-  render: function() {
+class EffyLayout extends Component {
+  render() {
     return (
         <div>
             <EffyHeader />
@@ -11,6 +10,6 @@ var EffyLayout = createReactClass({
         </div>
     )
   }
-});
+}
 
 export default EffyLayout;

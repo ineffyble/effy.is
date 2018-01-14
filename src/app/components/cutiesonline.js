@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 
-var CutiesOnline = createReactClass({
-  render: function() {
+class CutiesOnline extends Component {
+  render() {
     var webringThing = `
     <table border="0" cellpadding="2" cellspacing="0" style="border:2px solid #8258AC;margin:0px auto;font:normal 12px Hack,Menlo,Monaco,'Courier New',Courier,monospace;background:#7446a2 none;color:#ffffff;">
     <thead>
@@ -27,6 +26,6 @@ var CutiesOnline = createReactClass({
         <div id="cuties" dangerouslySetInnerHTML={{__html: webringThing}} />
     )
   }
-});
+}
 
 export default CutiesOnline;

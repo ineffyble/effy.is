@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import createReactClass from 'create-react-class';
 import HrtCounter from './hrtcounter.js';
 import HormoneGraph from './hormonegraph.js';
 
-var CheckOutHerHormoneGraph = createReactClass({
-  render: function() {
+class CheckOutHerHormoneGraph extends Component {
+  render() {
     return (
         <div className="row">
             <HrtCounter />
@@ -12,6 +11,6 @@ var CheckOutHerHormoneGraph = createReactClass({
         </div>
     )
   }
-});
+}
 
 export default CheckOutHerHormoneGraph;
