@@ -3,20 +3,20 @@ import {render} from 'react-dom';
 import Effy from './components/effy.js';
 import EffyLayout from './components/effylayout.js';
 import ShowEffyThings from './components/showeffythings.js';
-import ShowHerPartners from './components/showherpartners.js';
-import CheckOutHerHormoneGraph from './components/checkoutherhormonegraph.js';
-import SheIsIneffyble from './components/sheisineffyble.js';
+import ShowTheirPartners from './components/showtheirpartners.js';
+import CheckOutTheirHormoneGraph from './components/checkouttheirhormonegraph.js';
+import TheyAreIneffyble from './components/theyareineffyble.js';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 render(
   <BrowserRouter>
     <EffyLayout>
-        <Effy is="effy" so={SheIsIneffyble} />
+        <Effy is="effy" so={TheyAreIneffyble} />
         <Effy is="ineffyble" so={ShowEffyThings} />
-        <Effy is="in love" so={ShowHerPartners} />
-        <Effy is="on hrt" so={CheckOutHerHormoneGraph} />
-        <Effy is="tweeting" soRedirectTo="herTwitter" />
-        <Effy is="tumbling" soRedirectTo="herTumblr" />
+        <Effy is="in love" so={ShowTheirPartners} />
+        <Effy is="on hrt" so={CheckOutTheirHormoneGraph} />
+        <Effy is="tweeting" soRedirectTo="theirTwitter" />
+        <Effy is="tumbling" soRedirectTo="theirTumblr" />
     </EffyLayout>
   </BrowserRouter>,
    document.getElementById('app'));

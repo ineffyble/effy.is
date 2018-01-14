@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import HrtCounter from './hrtcounter.js';
 import HormoneGraph from './hormonegraph.js';
 
-class CheckOutHerHormoneGraph extends Component {
+class CheckOutTheirHormoneGraph extends Component {
   render() {
     return (
         <div className="row">
@@ -13,4 +13,4 @@ class CheckOutHerHormoneGraph extends Component {
   }
 }
 
-export default CheckOutHerHormoneGraph;
+export default CheckOutTheirHormoneGraph;

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Redirect} from 'react-router-dom';
 
-class SheIsIneffyble extends Component {
+class TheyAreIneffyble extends Component {
   render() {
     return (
         <Redirect to="/ineffyble" />
@@ -9,4 +9,4 @@ class SheIsIneffyble extends Component {
   }
 }
 
-export default SheIsIneffyble;
+export default TheyAreIneffyble;

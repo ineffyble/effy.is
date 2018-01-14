@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Router from 'react-router';
 import Partner from './partner.js';
 
-class ShowHerPartners extends Component {
+class ShowTheirPartners extends Component {
   render() {
     const partners = require('../../www/data/partners.json');
     return (
@@ -15,4 +15,4 @@ class ShowHerPartners extends Component {
   }
 }
 
-export default ShowHerPartners;
+export default ShowTheirPartners;
