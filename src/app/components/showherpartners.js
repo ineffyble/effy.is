@@ -8,7 +8,7 @@ class ShowHerPartners extends Component {
     return (
       <div>
         {partners.filter(function(partner) { return partner.current }).map(function(partner, i) {
-          return <Partner name={partner.name} anniversary={partner.anniversary} heart={partner.heart} />
+          return <Partner name={partner.name} anniversary={partner.anniversary} heart={partner.heart} key={partner.name} />
         })}
       </div>
     )

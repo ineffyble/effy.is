@@ -15,20 +15,24 @@ class Partner extends Component {
       return anniversary.getDate() + " " + months[anniversary.getMonth()] + " " + anniversary.getFullYear();
   }
 
+  isMultiple(name) {
+    return Array.isArray(name);
+  }
+
+  renderName(name) {
+    if (this.isMultiple(name)) {
+      return <Morphext animation="flipInY" speed="3000" phrases={name} />;
+    } else {
+      return name;
+    }
+  }
+
   render() {
-    if (this.props.name == 'Jen/Ren') {
-      return (
+    return (
       <div>
-          <h1><Twemoji text={this.props.heart}/> <Morphext animation="flipInY" speed="3000" phrases={["Jen", "Ren"]} /> - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
+          <h1><Twemoji text={this.props.heart}/> {this.renderName(this.props.name)} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
       </div>
       )
-    } else {
-      return (
-        <div>
-            <h1><Twemoji text={this.props.heart}/> {this.props.name} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
-        </div>
-      )
-    }
   }
 }
 

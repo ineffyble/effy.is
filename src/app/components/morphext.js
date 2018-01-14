@@ -65,7 +65,7 @@ var Morphext = createReactClass({
             lastIndex = this.props.phrases.length - 1;
         }*/
         var renderPhrases = this.props.phrases.map(function (text, id) {
-            return <MXPhrase phrase={text} animation={this.props.animation} active={id === this.state.index} /*lastActive={id === lastIndex}*/ />
+            return <MXPhrase key={text} phrase={text} animation={this.props.animation} active={id === this.state.index} /*lastActive={id === lastIndex}*/ />
         }.bind(this));
 
         return (
