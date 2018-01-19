@@ -45,7 +45,10 @@
         "heart": "💖"
     },
     {
-        "name": "Mika",
+        "name": [
+          "Mika",
+          "Gray"
+        ],
         "current": true,
         "anniversary": "2018-01-15",
         "heart": "🖤"
