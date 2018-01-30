@@ -40,7 +40,7 @@
     },
     {
         "name": "Evan",
-        "current": true,
+        "current": false,
         "anniversary": "2017-08-26",
         "heart": "💖"
     },
