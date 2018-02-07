@@ -52,5 +52,15 @@
         "current": true,
         "anniversary": "2018-01-15",
         "heart": "🖤"
+    },
+    {
+        "name": [
+          "Anna",
+          "Aurora"
+        ],
+        "current": true,
+        "anniversary": "2018-02-04",
+        "heart": "💖"
     }
+        
 ]
