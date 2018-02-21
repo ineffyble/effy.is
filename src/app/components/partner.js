@@ -27,10 +27,19 @@ class Partner extends Component {
     }
   }
 
+  renderHeart(heart) {
+    switch (heart.type) {
+      case 'emoji':
+        return <Twemoji text={heart.emoji}/>;
+      case 'image':
+        return <img className="partnerHeart" src={`/images/${heart.image}`} />;
+    }
+  }
+
   render() {
     return (
       <div>
-          <h1><Twemoji text={this.props.heart}/> {this.renderName(this.props.name)} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
+          <h1>{this.renderHeart(this.props.heart)} {this.renderName(this.props.name)} - {this.formatAnniversary(this.props.anniversary)} - <b>{this.daysSince(this.props.anniversary)} days</b></h1>
       </div>
       )
   }

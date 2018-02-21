@@ -3,25 +3,37 @@
         "name": "Erin",
         "current": false,
         "anniversary": "2016-06-25",
-        "heart": "❤️"
+        "heart": {
+            "type": "emoji",
+            "emoji": "❤️"
+        }
     },
     {
         "name": "Cass",
         "current": false,
         "anniversary": "2016-06-27",
-        "heart": "💛"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💛"
+        }
     },
     {
         "name": "Evelyn",
         "current": true,
         "anniversary": "2016-07-17",
-        "heart": "💜"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💜"
+        }
     },
     {
         "name": "Bianca",
         "current": false,
         "anniversary": "2016-12-20",
-        "heart": "💛"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💛"
+        }
     },
     {
         "name": [
@@ -30,19 +42,28 @@
         ],
         "current": true,
         "anniversary": "2016-12-29",
-        "heart": "💚"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💚"
+        }
     },
     {
         "name": "Lulu",
         "current": true,
         "anniversary": "2016-12-31",
-        "heart": "💙"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💙"
+        }
     },
     {
         "name": "Evan",
         "current": false,
         "anniversary": "2017-08-26",
-        "heart": "💖"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💖"
+        }
     },
     {
         "name": [
@@ -51,7 +72,10 @@
         ],
         "current": true,
         "anniversary": "2018-01-15",
-        "heart": "🖤"
+        "heart": {
+            "type": "emoji",
+            "emoji": "🖤"
+        }
     },
     {
         "name": [
@@ -60,12 +84,18 @@
         ],
         "current": true,
         "anniversary": "2018-02-04",
-        "heart": "💖"
+        "heart": {
+            "type": "emoji",
+            "emoji": "💖"
+        }
     },
     {
         "name": "Claire",
         "current": true,
         "anniversary": "2018-02-21",
-        "heart": "♥️"
+        "heart": {
+            "type": "image",
+            "image": "fang.jpg"
+        }
     }
 ]
