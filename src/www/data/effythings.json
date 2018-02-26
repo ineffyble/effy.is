@@ -10,6 +10,11 @@
                 "name": "CiviCRM",
                 "link": "https://civicrm.org/",
                 "description": "Open source CRM for non-profits and charities."
+            },
+            {
+                "name": "Rabble Rouser",
+                "link": "https://rabblerouser.team/",
+                "description": "Campaigning tools for community organisers and political, social, economic and environmental movements."
             }
         ],
         "made": [
@@ -63,6 +68,11 @@
                 "name": "Melbourne Gaymers",
                 "link": "https://facebook.com/MelbourneGaymers",
                 "description": "A cool queer gaming community I used to help run."
+            },
+            {
+                "name": "ThoughtWorks",
+                "link": "https://thoughtworks.com",
+                "description": "Where I work. Totally not a cult."
             }
         ]
     }
