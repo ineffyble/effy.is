@@ -49,7 +49,7 @@
     },
     {
         "name": "Lulu",
-        "current": true,
+        "current": false,
         "anniversary": "2016-12-31",
         "heart": {
             "type": "emoji",
