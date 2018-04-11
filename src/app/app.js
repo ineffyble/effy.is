@@ -6,6 +6,7 @@ import ShowEffyThings from './components/showeffythings.js';
 import ShowTheirPartners from './components/showtheirpartners.js';
 import CheckOutTheirHormoneGraph from './components/checkouttheirhormonegraph.js';
 import TheyAreIneffyble from './components/theyareineffyble.js';
+import ShowTheirBio from './components/showtheirbio.js';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 render(
@@ -17,6 +18,7 @@ render(
         <Effy is="on hrt" so={CheckOutTheirHormoneGraph} />
         <Effy is="tweeting" soRedirectTo="theirTwitter" />
         <Effy is="tumbling" soRedirectTo="theirTumblr" />
+        <Effy is="running for preselection" so={ShowTheirBio} />
     </EffyLayout>
   </BrowserRouter>,
    document.getElementById('app'));

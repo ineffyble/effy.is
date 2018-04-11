@@ -4,7 +4,7 @@ import EffyRedirect from './effyredirect.js';
 
 class Effy extends Component {
   render() {
-    var is = this.props.is.replace(' ', '/');
+    var is = this.props.is.replace(/ /g, '/');
     var is = "/" + is;
     var so = this.props.so;
     if (this.props.soRedirectTo) {
