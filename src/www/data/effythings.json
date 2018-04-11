@@ -73,6 +73,11 @@
                 "name": "ThoughtWorks",
                 "link": "https://thoughtworks.com",
                 "description": "Where I work. Totally not a cult."
+            },
+            {
+                "name": "Hack For Privacy",
+                "link": "https://hackforprivacy.org",
+                "description": "A network of technologists who care deeply enough about digital privacy to stand up and do something."
             }
         ]
     }
