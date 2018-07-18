@@ -97,5 +97,14 @@
             "type": "image",
             "image": "fang.jpg"
         }
+    },
+    {
+        "name": "Emily",
+        "current": true,
+        "anniversary": "2018-04-21",
+        "heart": {
+            "type": "emoji",
+            "emoji": "💝"
+        }
     }
 ]
