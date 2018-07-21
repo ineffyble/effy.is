@@ -3441,7 +3441,7 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-react-dom@>=0.14.0, react-dom@^16.4.1:
+react-dom@^16.4.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.1.tgz#7f8b0223b3a5fbe205116c56deb85de32685dad6"
   dependencies:
@@ -3450,16 +3450,14 @@ react-dom@>=0.14.0, react-dom@^16.4.1:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-emoji-render@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/react-emoji-render/-/react-emoji-render-0.4.2.tgz#57595b8a3e007392aae74371b66b148fcc320df9"
+react-emoji-render@^0.4.5:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/react-emoji-render/-/react-emoji-render-0.4.5.tgz#acdeef97e81158602cf028d0f3c35b6aafb1f2d4"
   dependencies:
     classnames "^2.2.5"
     emoji-regex "^6.4.1"
     lodash.flatten "^4.4.0"
     prop-types "^15.5.8"
-    react ">=0.14.0"
-    react-dom ">=0.14.0"
     string-replace-to-array "^1.0.1"
 
 react-router-dom@^4.2.2:
@@ -3485,7 +3483,7 @@ react-router@^4.2.0:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react@>=0.14.0, react@^16.0.0:
+react@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
   dependencies:
