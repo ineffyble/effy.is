@@ -2,11 +2,6 @@
     "code": {
         "contribute": [
             {
-                "name": "Mastodon",
-                "link": "https://github.com/tootsuite/mastodon",
-                "description": "Open source, federated social network/microblogging platform."
-            },
-            {
                 "name": "CiviCRM",
                 "link": "https://civicrm.org/",
                 "description": "Open source CRM for non-profits and charities."
@@ -22,11 +17,6 @@
                 "name": "NationTweaker",
                 "link": "https://ineffyble.github.io/nationtweaker",
                 "description": "Browser extension to make <a href='http://nationbuilder.com' target='_blank'>NationBuilder</a> better."
-            },
-            {
-                "name": "Tooter",
-                "link": "https://github.com/ineffyble/tooter",
-                "description": "Browser extension to bring Mastodon 'toot' buttons to the web."
             },
             {
                 "name": "stevenuniverse, the gem",
