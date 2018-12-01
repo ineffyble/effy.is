@@ -4085,9 +4085,9 @@ react-dom@^16.6.1:
     prop-types "^15.6.2"
     scheduler "^0.11.0"
 
-react-emoji-render@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/react-emoji-render/-/react-emoji-render-0.4.6.tgz#0f8ea55a3bde06ae241e075bbc534ed715803692"
+react-emoji-render@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/react-emoji-render/-/react-emoji-render-0.5.0.tgz#65698342b607edc8afd5e2f065221a5337ee4fb8"
   dependencies:
     classnames "^2.2.5"
     emoji-regex "^6.4.1"
