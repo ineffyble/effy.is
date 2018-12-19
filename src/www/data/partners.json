@@ -19,7 +19,7 @@
     },
     {
         "name": "Evelyn",
-        "current": true,
+        "current": false,
         "anniversary": "2016-07-17",
         "heart": {
             "type": "emoji",
