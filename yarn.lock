@@ -245,12 +245,6 @@ async@^2.1.2:
   dependencies:
     lodash "^4.14.0"
 
-async@^2.5.0:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.2.tgz#18330ea7e6e313887f5d2f2a904bac6fe4dd5381"
-  dependencies:
-    lodash "^4.17.11"
-
 async@~0.2.6:
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
@@ -2416,11 +2410,11 @@ handle-thing@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.0.tgz#0e039695ff50c93fc288557d696f3c1dc6776754"
 
-handlebars@^4.0.11:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.1.0.tgz#0d6a6f34ff1f63cecec8423aa4169827bf787c3a"
+handlebars@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.1.1.tgz#6e4e41c18ebe7719ae4d38e5aca3d32fa3dd23d3"
   dependencies:
-    async "^2.5.0"
+    neo-async "^2.6.0"
     optimist "^0.6.1"
     source-map "^0.6.1"
   optionalDependencies:
@@ -2704,9 +2698,9 @@ ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
-inspectpack@^4.0.0:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/inspectpack/-/inspectpack-4.1.2.tgz#b07dd10f1131c290d2076270470787d61b47097e"
+inspectpack@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/inspectpack/-/inspectpack-4.2.1.tgz#8e1893feb5293458c9d587cb2a8ec70be2e79dd4"
   dependencies:
     chalk "^2.4.0"
     io-ts "^1.0.5"
@@ -3489,6 +3483,10 @@ needle@^2.2.1:
 negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+
+neo-async@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
 
 neo-blessed@^0.2.0:
   version "0.2.0"
@@ -5224,15 +5222,15 @@ wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webpack-dashboard@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-3.0.0.tgz#14b2374841efd9b28d0368f07a38bc1af43970e1"
+webpack-dashboard@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-3.0.2.tgz#85fc1284e60fdeab81cc15e642ea0fbf95cd6051"
   dependencies:
     commander "^2.15.1"
     cross-spawn "^6.0.5"
     filesize "^3.6.1"
-    handlebars "^4.0.11"
-    inspectpack "^4.0.0"
+    handlebars "^4.1.0"
+    inspectpack "^4.2.1"
     most "^1.7.3"
     neo-blessed "^0.2.0"
     socket.io "^2.1.1"
