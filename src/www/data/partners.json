@@ -94,7 +94,7 @@
     },
     {
         "name": "Claire",
-        "current": true,
+        "current": false,
         "anniversary": "2018-02-21",
         "heart": {
             "type": "image",
