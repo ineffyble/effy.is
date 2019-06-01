@@ -5256,9 +5256,9 @@ wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webpack-dashboard@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-3.0.5.tgz#5b1dd2b736cbef5d1959821e7014e30bb35d22c3"
+webpack-dashboard@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-3.0.7.tgz#bee819049d8c2f9017ebf7ea59b043b10db1a9ca"
   dependencies:
     commander "^2.15.1"
     cross-spawn "^6.0.5"
