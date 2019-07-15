@@ -9,6 +9,9 @@ class ShowEffyThings extends Component {
     const things = require('../../www/data/effythings.json');
     return (
       <div>
+        <div className="row">
+        <a href="/speaking">Find out where I'm speaking.</a>
+        </div>
         <div className="row" id="body">
           <Things title="Code things" half={true}>
             <Things subtitle="Things I contribute to" things={things.code.contribute} />
