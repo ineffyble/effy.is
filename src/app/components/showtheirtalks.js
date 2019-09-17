@@ -29,7 +29,17 @@ class ShowTheirTalks extends Component {
       {
         name: '18 October - NDC Sydney',
         description: "Doing Infrastructure as Code? You Can Do Better",
-        link: 'https://serverlessdays.me',
+        link: 'https://ndcsydney.com',
+      },
+      {
+        name: '18 October - PubConf',
+        description: 'TBC',
+        link: 'https://pubconf.io',
+      },
+      {
+        name: '9 November - DevFest Melbourne',
+        description: 'False Assumptions Developers Make About Gender (and their sometimes hilarious results)',
+        link: 'https://www.gdgmelbourne.com/devfest',
       }
     ];
     return (
