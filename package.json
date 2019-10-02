@@ -14,7 +14,7 @@
     "react": "^16.10.1",
     "react-dom": "^16.9.0",
     "react-emoji-render": "^1.0.0",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
