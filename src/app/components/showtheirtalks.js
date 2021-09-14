@@ -66,7 +66,7 @@ class ShowTheirTalks extends Component {
       <div>
         <div className="row" id="body">
           <Things title="Come and hear me speak!">
-            <Things things={talks.map(t => t.done ? { name: t.name, description: `<s>${t.description}</s>`, link: t.recording ? t.recording : '#' } : t)} />
+            <Things things={talks.map(t => t.done ? { name: t.recording ? `Recording: ${t.name}` : t.name, description: `<s>${t.description}</s>`, link: t.done ? t.recording : undefined } : t)} />
           </Things>
         </div>
       </div>
